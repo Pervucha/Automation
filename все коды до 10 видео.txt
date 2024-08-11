@@ -1,11 +1,8 @@
-ввод логина
-пауза
-ввод пароля
-пауза
-нажатие кнопки "вход"
+ 
 
 describe("Webdriverio main page", () => {
-    xit("should have correct title", async () => {
+
+        xit("should have correct title", async () => {
         await browser.url('https://webdriver.io/');
         const title = await browser.getTitle()
         console.log(title);
@@ -38,7 +35,7 @@ describe("Webdriverio main page", () => {
         await expect(input).toHaveValue("hello")
     });
 
-    it("shoul show click command", async () =>{
+    xit("shoul show click command", async () =>{
         await browser.url('https://the-internet.herokuapp.com/login');
 
         let loginButton = await $('.radius')
@@ -57,4 +54,28 @@ describe("Webdriverio main page", () => {
         await loginButton.click()
         await browser.pause(4000)
     });
-});
+
+    xit("shold sho if an element is clickabele", async () => {
+        await browser.url('https://webdriver.io');
+
+        const blogButton = await $('.button[href="/docs/gettingstarted"]')
+        let clickable = await blogButton.isClickable()
+        console.log("Is clickable: " + clickable) // outputs: true
+    });
+
+    xit("shold sho if an element is clickabele", async () => {
+        await browser.url('https://webdriver.io');
+
+        const blogButton = await $('.button[href="/docs/gettingstarted"]')
+        let displayed = await blogButton.isDisplayed()
+        console.log("Is displayed: " + displayed) // outputs: true
+    });
+
+    xit("shold sho if an element is clickabele", async () => {
+        await browser.url('https://webdriver.io');
+
+        const blogButton = await $('.button[href="/docs/gettingstarted"]')
+        let displayedInViewport = await blogButton.isDisplayedInViewport()
+        console.log("Is blog button displayed in viewport: " + displayedInViewport) //outputs: true
+    });
+    });

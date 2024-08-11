@@ -1,0 +1,70 @@
+describe("Webdriverio main page", () => {
+
+    it("shoul show click command", async () =>{
+        await browser.url('https://edu.genius.space/uk/login');
+
+        let loginButton = await $('.main-button')
+        await browser.pause(2000)
+        await loginButton.click()
+        await browser.pause(4000)
+
+        let inputLogin = await $("[name=login]")
+        await inputLogin.addValue("igorkhodeev4@gmail.com")
+        await browser.pause(2000)
+
+        let inputPassword = await $("[name=password]")
+        await inputPassword.addValue("")
+        await browser.pause(4000)
+
+        await loginButton.click()
+        await browser.pause(8000)
+    });
+    
+    it("shoul show click command", async () =>{
+        await browser.url('https://edu.genius.space/uk/login');
+   
+        let inputLogin = await $("[name=login]")
+        await inputLogin.addValue("igorkhodeev4@gmail.com")
+        await browser.pause(2000)
+
+        let inputPassword = await $("[name=password]")
+        await inputPassword.addValue("3244vvvxW55345")
+        await browser.pause(4000)
+
+        let loginButton = await $('.main-button')
+        await loginButton.click()
+        await browser.pause(8000)
+    });
+    
+    it("shoul show click command", async () =>{
+        await browser.url('https://edu.genius.space/uk/login');
+
+        let inputLogin = await $("[name=login]")
+        await inputLogin.addValue("igor@gmail.com")
+        await browser.pause(2000)
+
+        let inputPassword = await $("[name=password]")
+        await inputPassword.addValue("FG7Pnp6BFbFMND")
+        await browser.pause(4000)
+
+        let loginButton = await $('.main-button')
+        await loginButton.click()
+        await browser.pause(8000)
+    });
+    
+    it("shoul show click command", async () =>{
+        await browser.url('https://edu.genius.space/uk/login');
+
+        let inputLogin = await $("[name=login]")
+        await inputLogin.addValue("igorkhodeev4@gmail.com")
+        await browser.pause(2000)
+
+        let inputPassword = await $("[name=password]")
+        await inputPassword.addValue("FG7Pnp6BFbFMND")
+        await browser.pause(4000)
+
+        let loginButton = await $('.main-button')
+        await loginButton.click()
+        await browser.pause(8000)
+    });
+});

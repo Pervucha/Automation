@@ -1,5 +1,9 @@
 второй урок. здесь верхняя часть с первого урока с добавлением (Х) перед (it). 21 строчка. 
 
+ввод логина 
+пауза
+ввод цифр в поле логин
+
 describe("Webdriverio main page", () => {
     xit("should have correct title", async () => {
         await browser.url('https://webdriver.io/');
