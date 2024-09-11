@@ -1,0 +1,14 @@
+
+
+Курсы QA Engineer - https://genius.space/
+Имею навыки:
+- Теория тестирования.
+- Тест-кейсы , чек-листы . Практиковался с TEST RAIL.
+- Баг репорты. Практиковался с Jira .
+- Тестирование веб-приложений и APP ( ChromeDevTools, Charles Proxy)
+- GIT иGIThub ( базовые команды: clohe,init, status, add, commit,log, push, branch, checkout,merge, ).
+- Тестирование API - Swagger, Postman.
+
+
+
+Примеры: тест-кейсы, баг репорт - https://docs.google.com/document/d/1cKuzpMdQdGbsIzVJ45_6ZneC_O4Qvl3p8rotvEZNzKs/edit?usp=sharing
