@@ -6,7 +6,7 @@
 - Тест-кейсы , чек-листы . Практиковался с TEST RAIL.
 - Баг репорты. Практиковался с Jira .
 - Тестирование веб-приложений и APP ( ChromeDevTools, Charles Proxy)
-- GIT иGIThub ( базовые команды: clohe,init, status, add, commit,log, push, branch, checkout,merge, ).
+- GIT иGIThub ( базовые команды: clohe,init, status, add, commit,log, push, branch, checkout,merge, ). https://github.com/Pervucha/resume.git
 - Тестирование API - Swagger, Postman.
 
 
